@@ -1,16 +1,20 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Stay awhile and listen
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Welcome!
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My name is Chris Sturtevant.
 
-What else do you need?
+I am a passionate fan of software programming's ability to help real people as well as automating the unnecessary. 
 
-### my history
+I also enjoy: 
+- Software Tools
+- Reading
+- Fitness
+- Health
+- Having my perspective changed
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I adore learning, being introduced to new experiences, new people, and feel free to discuss anything with me!
