@@ -4,9 +4,9 @@ title: Waking Up to A Livestream
 tags: [mac, python, tutorial]
 ---
 
-A few days there was a post on imgur listing some [24/7 music streaming stations](http://imgur.com/gallery/puU0r). I found the music to be quite relaxing and I believed instead of waking up to the same sounds everyday, the variety would help me wake up.
+Recently there was a post on imgur listing some [24/7 music streaming stations](http://imgur.com/gallery/puU0r). I found the music to be quite relaxing and thought that I would love to wake up to new music like this everyday.
 
-So I decided to look into a way to automatically launch the a livestream's URL at a specified time every day. This led me to look more deeply into a concept I had heard about called cron jobs. I found an [article](https://ole.michelsen.dk/blog/schedule-jobs-with-crontab-on-mac-osx.html) describing the process of using a crontab, which I will paraphrase below.
+So I decided to look into a way to automatically launch the livestream URL at a specified time every day. This led me to look more deeply into a concept I had heard about called cron jobs. I found an [article](https://ole.michelsen.dk/blog/schedule-jobs-with-crontab-on-mac-osx.html) describing the process of using a crontab, which I will paraphrase below.
 
 To add a job to crontab you need to edit the job list. A job is created using the following format: 
 ```
@@ -19,7 +19,7 @@ To add a job to crontab you need to edit the job list. A job is created using th
      └─────────────────────── min (0 - 59)
 ```
 
-Using the below script named urlopener.sh, which is run through Python 2.7.6 I added this to the job list.
+To open the URL programmatically I used the below script named urlopener.py, which is run through Python 2.7.6.
 
 ```
 #!/usr/bin/python
@@ -47,4 +47,4 @@ To verify that the crontab job has been added use the following command:
 ```
 crontab -l
 ```
-I hope this exposes some to the utility of cronjobs and the power of python scripts. I am certainly enjoying my new alarm!
+I hope this exposes some to the utility of cron jobs and the power of python scripts. I am certainly enjoying my new alarm!
