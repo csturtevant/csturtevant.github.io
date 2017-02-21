@@ -4,7 +4,7 @@ title: Waking Up to A Livestream
 tags: [mac, python, tutorial]
 ---
 
-Recently there was a post on imgur listing some [24/7 music streaming stations](http://imgur.com/gallery/puU0r). I found the music to be quite relaxing and thought that I would love to wake up to new music like this everyday.
+Recently there was a post on imgur listing some [24/7 music streaming stations](http://imgur.com/gallery/puU0r). I found the music to be quite relaxing and thought that I would love to wake up to new music like this everyday. (This does require the computer to have to remain on)
 
 So I decided to look into a way to automatically launch the livestream URL at a specified time every day. This led me to look more deeply into a concept I had heard about called cron jobs. I found an [article](https://ole.michelsen.dk/blog/schedule-jobs-with-crontab-on-mac-osx.html) describing the process of using a crontab, which I will paraphrase below.
 
